@@ -1,0 +1,59 @@
+.sudoku-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0px;
+    background-color: #212121;
+    padding: 2px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 3px 3px 3px #00000030;
+  }
+  
+  .sudoku-subgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #000;
+  }
+  
+  .sudoku-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #000;
+    background-color: #fff;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000; 
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+
+  .sudoku-cell-selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #000;
+    background-color: #d4dafa;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000; 
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+  
+  .sudoku-cell-highlighted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #000;
+    background-color: #e2e4eb;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000; 
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+  }
